@@ -2,6 +2,10 @@ static NSString *collectionViewCellIdentifer = <#identifer#>;
 
 #pragma mark - UICollectionViewDataSource
 
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    return <#numberOfSectionsInCollectionView#>;
+}
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return <#numberOfItemsInSection#>;
 }
