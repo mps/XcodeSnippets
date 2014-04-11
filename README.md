@@ -6,7 +6,7 @@ Now copy-paste the code from one of these snippets, highlight the code block you
 
 ## Credit
 
-Thanks to [@mattt](https://github.com/mattt) for his snippets and getting me started.
+Thanks to [@mattt](https://github.com/mattt) for his snippets and getting me started.  Check out his collection for more [here.](https://github.com/mattt/Xcode-Snippets)
 
 ## Contact
 
