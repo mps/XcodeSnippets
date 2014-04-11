@@ -19,7 +19,7 @@ static NSString *eventCellIdentifier = <#identifier#>;
 }
 
 - (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    <#statements#>
+    
 }
 
 #pragma mark - UITableViewDelegate
