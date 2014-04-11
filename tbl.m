@@ -1,4 +1,4 @@
-static NSString *eventCellIdentifier = <#identifier#>;
+static NSString *cellIdentifier = <#identifier#>;
 
 #pragma mark - UITableViewDataSource
 
@@ -20,6 +20,10 @@ static NSString *eventCellIdentifier = <#identifier#>;
 
 - (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     
+}
+
+- (UINib *)<#cellname#>CellNib {
+    return [UINib nibWithNibName:cellIdentifier bundle:nil];
 }
 
 #pragma mark - UITableViewDelegate
