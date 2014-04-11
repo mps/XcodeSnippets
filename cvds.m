@@ -7,7 +7,7 @@ static NSString *collectionViewCellIdentifer = <#identifer#>;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:<#collectionViewCellidentifier#> forIndexPath:indexPath];
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:collectionViewCellIdentifer forIndexPath:indexPath];
 	
     [self configureCell:cell forItemAtIndexPath:indexPath];
 	
